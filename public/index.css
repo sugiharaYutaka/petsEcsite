@@ -1,0 +1,39 @@
+.bg-color-primary{
+    background-color: #3C7E62;
+}
+.txt-white{
+    color: #ffffff;
+}
+.p-0{
+    padding:0;
+}
+.m-0{
+    margin:0;
+}
+
+.letter-space-1{
+    letter-spacing: 0.1em
+}
+.letter-space-2{
+    letter-spacing: 0.2em
+}
+
+.h2{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.logo{
+    height: 64px;
+    width: 64px;
+}
+.no-underline{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'shipporiMincho';
+    src: url('assets/fonts/YonagaOldMincho-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'shipporiMincho';
+}
