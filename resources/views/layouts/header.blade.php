@@ -5,46 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{asset('index.css')}}" rel="stylesheet">
+    <script src="{{asset('index.js')}}"></script>
 </head>
 
 
-<body>
-    <div class="header fixed-top">
+<div class="header-padding">
+    <div class="fixed-top">
         <div class="container-fluid">
-            <div class="row border">
-                <nav class="navbar navbar-expand-lg navbar-light bg-color-primary p-0" style="height:75px">
+            <div class="row bg-color-primary header">
+                <nav class="navbar navbar-expand-lg p-0 ">
                     <div class="col-4">
-                        <button type="button" style="border: none;" class="btn">
-                            <a href="{{ route('home') }}" class="no-underline">
-                                <img class="logo" src="{{asset('assets/image/logo.png')}}">
-                                <span class="txt-white letter-space-2 h2">うちの子の料理番</span>
-                            </a>
-                        </button>
+                        <a href="{{ route('home') }}" class="no-underline">
+                            <img class="logo" src="{{asset('assets/image/logo.png')}}">
+                            <span class="txt-white letter-space-2 h2">うちの子の料理番</span>
+                        </a>
                     </div>
 
-                    <div class="offset-3 col-1 h-100 border-start d-flex justify-content-center d-flex align-items-center">
-                        <a href="{{ route('home') }}" class="no-underline">
-                            <button type="button" class="btn txt-white letter-space-2 h2">ご挨拶</button>
+                    <div class="offset-3 col-1 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">ご挨拶</span>
                         </a>
                     </div>
-                    <div class="col-1 h-100 border-start d-flex justify-content-center d-flex align-items-center">
-                        <a href="{{ route('home') }}" class="no-underline">
-                            <button type="button" class="btn txt-white letter-space-2 h2">こだわり</button>
+                    <div class="col-1 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">こだわり</span>
                         </a>
                     </div>
-                    <div class="col-1 h-100 border-start d-flex justify-content-center d-flex align-items-center">
-                        <a href="{{ route('home') }}" class="no-underline">
-                            <button type="button" class="btn txt-white letter-space-2 h2">サービス</button>
+                    <div class="col-1 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">サービス</span>
                         </a>
                     </div>
-                    <div class="col-1 h-100 border-start d-flex justify-content-center d-flex align-items-center">
-                        <a href="{{ route('home') }}" class="no-underline">
-                            <button type="button" class="btn txt-white letter-space-2 h2">販売</button>
+                    <div class="col-1 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">販売</span>
                         </a>
                     </div>
-                    <div class="col-1 h-100 border-start d-flex justify-content-center d-flex align-items-center">
-                        <a href="{{ route('home') }}" class="no-underline">
-                            <button type="button" class="btn txt-white letter-space-2 h2">お問合せ</button>
+                    <div class="col-1 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">お問合せ</span>
                         </a>
                     </div>
                     
@@ -52,6 +51,4 @@
             </div>
         </div>
     </div>
- 
-
-</body>
+</div>
