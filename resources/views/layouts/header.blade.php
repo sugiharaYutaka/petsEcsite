@@ -21,7 +21,7 @@
                         </a>
                     </div>
 
-                    <div class="offset-3 col-1 h-100 border-start">
+                    <div class="offset-2 col-1 h-100 border-start">
                         <a href="{{ route('home') }}" class="header-btn no-underline">
                             <span class="txt-white h2 underline d-flex justify-content-center align-items-center">ご挨拶</span>
                         </a>
@@ -38,12 +38,16 @@
                     </div>
                     <div class="col-1 h-100 border-start">
                         <a href="{{ route('home') }}" class="header-btn no-underline">
-                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">販売</span>
+                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">お問合せ</span>
                         </a>
                     </div>
-                    <div class="col-1 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline">
-                            <span class="txt-white h2 underline d-flex justify-content-center align-items-center">お問合せ</span>
+                    <div class="col-2 h-100 border-start">
+                        <a href="{{ route('home') }}" class="header-btn no-underline d-flex align-items-center">
+                            
+                            <div class="header-text w-100">
+                                <span class="txt-white h2 d-flex justify-content-center">販売</span>
+                                <span class="txt-white h1 d-flex justify-content-center">ONLINE SHOP</span>
+                            </div>
                         </a>
                     </div>
                     

@@ -29,6 +29,10 @@
     font-size: 1.2vw;
     margin: 0;
 }
+.h1{
+    font-size: 0.8vw;
+    margin: 0;
+}
 .logo{
     height: 64px;
     width: 64px;
@@ -48,7 +52,12 @@
     background-color: #1e3a2e;
     height: 100%;
     width: 100%;
-    letter-spacing: 0.3em
+    letter-spacing: 0.4em
+}
+.header-icon{
+    height: 32px;
+    width: 32px;
+    display: inline;
 }
 
 .underline{
@@ -59,21 +68,33 @@
 }
 .underline:after{
     content: '';
-    /*絶対配置で線の位置を決める*/
     position: absolute;
     bottom: 25;
     left: 10%;
-    /*線の形状*/
     width: 80%;
     height: 1px;
     background:#ffffff;
-    /*アニメーションの指定*/
     transition: all 0.3s;
-    transform: scale(0, 1);/*X方向0、Y方向1*/
-    transform-origin: center top;/*上部中央基点*/
+    transform: scale(0, 1);
+    transform-origin: center top;
 }
 .underline:hover::after {
-    transform: scale(1, 0.5);/*X方向にスケール拡大*/
+    transform: scale(1, 0.5);
+}
+
+
+
+.home-image{
+    background-image: url(assets/image/home.png);
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    transform: scale(-1,1);
+}
+.text-vertical{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: scale(-1,1);
 }
 
 .footer{
