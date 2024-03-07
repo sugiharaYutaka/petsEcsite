@@ -22,27 +22,27 @@
                     </div>
 
                     <div class="offset-2 col-1 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                        <a href="{{ route('intro') }}" class="header-btn no-underline">
                             <span class="txt-white h2 underline d-flex justify-content-center align-items-center">ご挨拶</span>
                         </a>
                     </div>
                     <div class="col-1 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                        <a href="{{ route('kodawari') }}" class="header-btn no-underline">
                             <span class="txt-white h2 underline d-flex justify-content-center align-items-center">こだわり</span>
                         </a>
                     </div>
                     <div class="col-1 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                        <a href="{{ route('service') }}" class="header-btn no-underline">
                             <span class="txt-white h2 underline d-flex justify-content-center align-items-center">サービス</span>
                         </a>
                     </div>
                     <div class="col-1 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline">
+                        <a href="{{ route('contact') }}" class="header-btn no-underline">
                             <span class="txt-white h2 underline d-flex justify-content-center align-items-center">お問合せ</span>
                         </a>
                     </div>
                     <div class="col-2 h-100 border-start">
-                        <a href="{{ route('home') }}" class="header-btn no-underline d-flex align-items-center">
+                        <a href="{{ route('shop') }}" class="header-btn no-underline d-flex align-items-center">
                             
                             <div class="header-text w-100">
                                 <span class="txt-white h2 d-flex justify-content-center">販売</span>
