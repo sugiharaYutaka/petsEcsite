@@ -19,4 +19,5 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 })->name('home');
-Route::get('/uploadVideo','NameController@show');
+
+Route::get('/shop','App\Http\Controllers\ShopController@show')->name('shop');
