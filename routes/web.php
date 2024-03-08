@@ -19,4 +19,22 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 })->name('home');
+
+Route::get('/intro', function () {
+    return 'stab';
+})->name('intro');
+
+Route::get('/kodawari', function () {
+    return 'stab';
+})->name('kodawari');
+
+Route::get('/service', function () {
+    return 'stab';
+})->name('service');
+
+Route::get('/contact', function () {
+    return 'stab';
+})->name('contact');
+
+
 Route::get('/uploadVideo','NameController@show');
