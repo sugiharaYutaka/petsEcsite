@@ -59,7 +59,12 @@
     width: 32px;
     display: inline;
 }
-
+.search-btn{
+    background-color: #ffffff;
+}
+form{
+    margin: 0;
+}
 .underline{
     position:relative;
     height: 100%;

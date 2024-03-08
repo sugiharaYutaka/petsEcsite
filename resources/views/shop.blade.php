@@ -1,4 +1,4 @@
-@include('layouts.header')
+@include('layouts.shopHeader')
 
 <body>
     <div class="container-fluid">
