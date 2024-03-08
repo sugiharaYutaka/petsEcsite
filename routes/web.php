@@ -21,3 +21,19 @@ Route::get('/home', function () {
 })->name('home');
 
 Route::get('/shop','App\Http\Controllers\ShopController@show')->name('shop');
+
+Route::get('/intro', function () {
+    return 'stab';
+})->name('intro');
+
+Route::get('/kodawari', function () {
+    return 'stab';
+})->name('kodawari');
+
+Route::get('/service', function () {
+    return 'stab';
+})->name('service');
+
+Route::get('/contact', function () {
+    return 'stab';
+})->name('contact');
