@@ -20,6 +20,8 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
+Route::get('/shop','App\Http\Controllers\ShopController@show')->name('shop');
+
 Route::get('/intro', function () {
     return 'stab';
 })->name('intro');
@@ -35,6 +37,3 @@ Route::get('/service', function () {
 Route::get('/contact', function () {
     return 'stab';
 })->name('contact');
-
-
-Route::get('/uploadVideo','NameController@show');
