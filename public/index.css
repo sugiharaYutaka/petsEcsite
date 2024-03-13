@@ -1,8 +1,15 @@
 .bg-color-primary{
     background-color: #3C7E62;
 }
+.bg-color-gray{
+    background-color: #F5F5F5;
+}
 .txt-white{
     color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .p-0{
     padding:0;
@@ -10,9 +17,17 @@
 .m-0{
     margin:0;
 }
+.mx-large{
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.my-large{
+    margin-top:6rem;
+    margin-bottom:6rem;
+}
 
 .header-padding{
-    margin-bottom: 75px
+    margin-bottom: 75px;
 }
 .header{
     box-shadow: 0px 10px 15px -10px;
@@ -24,7 +39,9 @@
 .letter-space-2{
     letter-spacing: 0.2em
 }
-
+.h3{
+    font-size: 1.3em;
+}
 .h2{
     font-size: 1.2vw;
     margin: 0;
@@ -33,6 +50,7 @@
     font-size: 0.8vw;
     margin: 0;
 }
+
 .logo{
     height: 64px;
     width: 64px;
@@ -96,10 +114,11 @@ form{
     background-repeat: no-repeat;
     transform: scale(-1,1);
 }
-.wrap{
-    width:100%;
-    height: 750px;
+.row-margin{
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 .text-vertical{
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -112,11 +131,39 @@ form{
 }
 
 .product{
-    width: 100%;
-    height: 400px;
-    border-radius: 10px;
+    border:solid 1px #dee2e6;
 }
-
+.product:hover{
+    box-shadow: 0 0 0 2px #3C7E62;
+}
+.fit{
+    height: fit-content;
+}
+.mycard-top{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+}
+.mycard-top img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mycard-bot{
+    width: 100%;
+}
+.mycard-bot span{
+    width: 100%;
+}
+.stock-true{
+    color: #3C7E62;
+}
+.stock-false{
+    color: #FE5959;
+}
 
 .footer{
     background-color: #1e2924;
