@@ -53,8 +53,8 @@
 .slick-dots button {
     color: transparent;
     outline: none;
-    width:10px;
-    height:10px;
+    width:12px;
+    height:12px;
     display:block;
     border: 0px solid #ffffff;
     border-radius:50%;
@@ -63,7 +63,7 @@
 }
 
 .slick-dots .slick-active button{
-    background:#1e3a2e;
+    background:#3C7E62;
 }
 .slide-img{
     height: 250px;
