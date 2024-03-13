@@ -53,27 +53,13 @@
                         <div class="mycard-bot p-3">
                             <span class="stock-true">在庫あり</span><br>
                             <span class="d-flex justify-content-center my-2 letter-space-2 h3">鹿肉のソテー</span>
-                            <span class="d-flex justify-content-end">¥1,500</span>
+                            <span class="d-flex justify-content-end price">¥1,500</span>
                         </div>
                     </div>
                 </a>
             </div>
         @endfor
 
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-3 fit">
-                <a href="" class="shop">
-                    <div class="product">
-                        <div class="mycard-top">
-                            <img src="{{asset("assets/image/dish1.jpg")}}">
-                        </div>
-                        <div class="mycard-bot p-3">
-                            <span class="stock-true">在庫あり</span><br>
-                            <span class="d-flex justify-content-center my-2 letter-space-2 h3">鹿肉のソテー</span>
-                            <span class="d-flex justify-content-end">¥1,500</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
             
         </div>
     </div>
