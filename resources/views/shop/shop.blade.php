@@ -1,7 +1,8 @@
 @include('layouts.shopHeader')
 
 
-<link href="{{asset('slide_slick.css')}}" rel="stylesheet">
+<link href="{{asset('assets/css/slide_slick.css')}}" rel="stylesheet">
+<link href="{{asset('assets/css/shop.css')}}" rel="stylesheet">
 
 <body>
     <div class="slider py-5">
