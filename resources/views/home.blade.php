@@ -1,5 +1,6 @@
 @include('layouts.header')
 
+<link href="{{asset('assets/css/intro.css')}}" rel="stylesheet">
 <body>
     <div class="container-fluid">
         <div class="row">
