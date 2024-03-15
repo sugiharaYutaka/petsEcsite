@@ -19,6 +19,10 @@ Route::get('/home', function () {
 
 Route::get('/shop','App\Http\Controllers\ShopController@show')->name('shop');
 
+Route::get('/shop/product', function () {
+    return view('shop.product');
+})->name('product');
+
 Route::get('/intro', function () {
     return 'stab';
 })->name('intro');
