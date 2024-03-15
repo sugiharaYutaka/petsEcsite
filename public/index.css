@@ -49,7 +49,9 @@ a{
     margin-left: 10%;
     margin-right: 10%;
 }
-
+.fit{
+    height: fit-content;
+}
 .footer{
     background-color: #1e2924;
     color: #ffffff;
