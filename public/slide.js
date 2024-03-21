@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         $('.slider').slick({
             autoplay: true,
             dots: true,
-            slidesToShow: slideMax,
+            slidesToShow: 3,
             slidesToScroll: 1,
         });
     });

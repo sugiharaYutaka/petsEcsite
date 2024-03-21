@@ -12,6 +12,7 @@
 .fit{
     height: fit-content;
 }
+
 .mycard-top{
     position: relative;
     overflow: hidden;
@@ -30,12 +31,6 @@
 }
 .mycard-bot span{
     width: 100%;
-}
-.stock-true{
-    color: #3C7E62;
-}
-.stock-false{
-    color: #FE5959;
 }
 .price{
     color:#7C7C7C

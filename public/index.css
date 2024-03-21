@@ -46,8 +46,8 @@ a{
 }
 
 .row-margin{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .fit{
     height: fit-content;
@@ -55,9 +55,11 @@ a{
 .fit-w{
     width: fit-content;
 }
-.footer{
-    background-color: #1e2924;
-    color: #ffffff;
+.stock-true{
+    color: #3C7E62;
+}
+.stock-false{
+    color: #FE5959;
 }
 @font-face {
     font-family: 'shipporiMincho';

@@ -17,11 +17,10 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
-Route::get('/shop','App\Http\Controllers\ShopController@show')->name('shop');
+Route::get('/shop','App\Http\Controllers\ShopController@showShop')->name('shop');
+Route::get('/shop/product','App\Http\Controllers\ShopController@showProduct')->name('product');
+Route::get('/shop/cart','App\Http\Controllers\ShopController@showCart')->name('cart');
 
-Route::get('/shop/product', function () {
-    return view('shop.product');
-})->name('product');
 
 Route::get('/intro', function () {
     return 'stab';
